@@ -1,6 +1,6 @@
 function fetchDataFromAPI_New() {
   // URL del nuevo webhook
-  var url = "https://hook.us1.make.com/t6hvvlt3r711uja555wmrk063dhabr7u";
+  var url = "WEBHOOK HERE";
   var response = UrlFetchApp.fetch(url);
   var data = JSON.parse(response.getContentText());
   
